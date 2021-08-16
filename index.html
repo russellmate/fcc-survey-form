@@ -15,19 +15,19 @@
     <div class="container">
         <form id="survey-form">
             <div class="form-inputs">
-                <label id="name" for="name">Name</label>
+                <label id="name-label" for="name">Name</label>
                 <input type="text" id="name" class="form-control" name="name" placeholder="Enter your name" required="">
             </div>
             <div class="form-inputs">
-                <label id="email" for="email">Email</label>
-                <input type="text" id="email" class="form-control" name="email" placeholder="Enter your email" required="">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" class="form-control" name="email" placeholder="Enter your email" required="">
             </div>
             <div class="form-inputs">
-                <label id="age" for="number">Age <span>(optional)</span></label>
-                <input type="number" id="age" class="form-control" name="age" placeholder="Select your age" min="1" max="99">
+                <label id="number-label" for="number">Age <span>(optional)</span></label>
+                <input type="number" id="number" class="form-control" name="age" placeholder="Select your age" min="1" max="99">
             </div>
             <div class="form-inputs">
-                <label id="role-option" for="role">Which option best descibes your current role?</label>
+                <label id="dropdown" for="role">Which option best descibes your current role?</label>
                 <select name="role" id="role" class="form-control" required="">
                     <option value="" disabled="" selected="">Select current role</option>
                     <option value="student">Student</option>
